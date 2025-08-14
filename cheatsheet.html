@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> HTML Tables Cheatsheet</title>
+  <link href="styles.css" type="text/css" rel="stylesheet"> 
+  </head>
+  <body>
+    <h1>HTML Tables Cheatsheet</h1>
+    <table>
+      <thead>
+      <tr>
+        <th>Tag</th>
+        <th scope="col">Description</th>
+        <th scope="col">Comments</th>
+      </tr>
+      </thead>
+
+      <tbody>
+      <tr>
+        <th scope="row">&lt;table&gt;</th>
+        <td> tags to start the table </td>
+        <td> Don't forget to open and close the tags to complete the table</td>
+      </tr>
+
+      <tr>
+        <th scope="row">&lt;tr&gt;</th>
+        <td> creates row </td>
+        <td> First data entry you do should be table heads. Then the number of columns will depend on number of cells you input.</td>
+      </tr>
+
+      <tr>
+        <th scope="row">&lt;th&gt;</th>
+        <td> creates header</td>
+        <td> Actual syntax is &lt;th scope="row/col"&gt; name &lt;/th&gt;.</td>
+      </tr>
+
+      <tr>
+        <th scope="row">&lt;td&gt;</th>
+        <td> Creates data input</td>
+        <td> Every &lt;td&gt; you do creates additional column in the row you're in. </td>
+      </tr>
+
+      <tr>
+        <th scope="row">&lt;colspan="integer"&gt;</th>
+        <td> Merges cells vertically</td>
+        <td> The integer is number of cells to merge. Colspan is just attribute for opening td tag. </td>
+      </tr>
+
+      <tr>
+        <th scope="row">&lt;rowspan="integer"&gt;</th>
+        <td> Merges cells horizontally</td>
+        <td> The integer is number of cells to merge. Rowspan is just attribute for opening td tag. </td>
+      </tr>
+
+      <tr>
+        <th scope="row">&lt;tbody&gt;</th>
+        <td> sections off data part of table </td>
+        <td> for large tables, sections off only data part of the table</td>
+      </tr>
+
+      <tr>
+        <th scope="row">&lt;thead&gt;</th>
+        <td> sections off headers part of table </td>
+        <td> for large tables, sections off only headers part of the table</td>
+      </tr>
+
+      <tr>
+        <th scope="row">&lt;tfoot&gt;</th>
+        <td> sections off footer part of table </td>
+        <td> for large tables, sections off only bottom part of the table to create summaries and etc.</td>
+      </tr>
+      </tbody>
+
+    </table>
+  </body>
+</html>

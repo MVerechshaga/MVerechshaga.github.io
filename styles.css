@@ -1,0 +1,54 @@
+/* Base page style */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+/* Table container */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  overflow: hidden; /* to round table corners */
+}
+
+/* Header cells */
+th {
+  background-color: #4CAF50;
+  color: white;
+  text-align: left;
+  padding: 12px;
+  font-weight: bold;
+}
+
+th[scope="row"] {
+  color: black; /* so text is visible */
+  font-weight: normal;
+  border: 1px solid #ddd;
+}
+
+
+/* Body cells */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row background */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* First column formatting */
+th[scope="row"] {
+  background-color: #e8f5e9;
+  font-weight: normal;
+}
